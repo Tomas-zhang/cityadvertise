@@ -1,0 +1,62 @@
+/**index.wxss**/
+.city {
+  background: linear-gradient(rgb(63, 72, 139), rgb(250, 249, 249));
+}
+.set-flex {
+  display: flex; 
+}
+.set-column {
+  flex-direction: column;
+}
+.logo {
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 60rpx;
+  margin-left: 60rpx;
+  border-radius: 50%;
+}
+.city-name {
+  margin-left: 44rpx;
+  margin-top: 80rpx;
+  font-size: 25px;
+  /* color: #4A56B2; */
+  color: rgb(19, 59, 104);
+}
+.icon-size {
+  width: 55rpx;
+  height: 55rpx;
+}
+.icon-right {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 10rpx;
+}
+.view-icon {
+  margin-top: 20rpx;
+}
+.section-1 {
+  margin-left: 10rpx;
+  margin-top: 20px;
+}
+.set-line {
+  display: flex;
+  margin-left: 62rpx;
+}
+.set-text {
+  color: #4A56B2;
+}
+.set-img {
+  width: 232rpx;
+  height: 180rpx;
+  border-radius: 15%;
+  justify-content: space-between;
+  margin-right: 10rpx;
+  /* border: 1rpx solid gray; */
+}
+.first {
+  margin-top: 40rpx;
+}
+.last {
+  margin-bottom: 20rpx;
+}

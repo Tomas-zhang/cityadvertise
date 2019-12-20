@@ -1,0 +1,8 @@
+/* pages/location/map.wxss */
+page{
+  height: 100%;
+}
+.size {
+  width: 100%; 
+  height: 100%;
+}

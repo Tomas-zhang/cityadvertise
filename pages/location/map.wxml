@@ -1,0 +1,7 @@
+<!--pages/location/map.wxml-->
+<view class="size" hover-class="none" hover-stop-propagation="false">
+
+  <!-- <map class="size" id="map" longitude="{{longitude}}" latitude=" {{latitude}}" markers="{{markers}}" scale="13" show-location ></map>
+   -->
+
+</view>

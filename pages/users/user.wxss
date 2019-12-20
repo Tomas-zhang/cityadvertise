@@ -1,0 +1,23 @@
+/* pages/users/user.wxss */
+.userinfo{
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 100rpx;
+  /* align-items: center; */
+}
+.userinfo-avatar {
+  padding-left: 100rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+.userinfo-nickname {
+  padding-top: 56rpx;
+}
+.user-author{
+  height: 60rpx;
+  margin-top: 23px;
+  color: white;
+  font-size: 14px;
+  margin-left: 248rpx;
+  background-color:rgb(28, 141, 85);
+}

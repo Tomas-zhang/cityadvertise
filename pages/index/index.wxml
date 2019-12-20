@@ -1,0 +1,38 @@
+<!--index.wxml-->
+
+<view class="container">
+   <view class="city">
+      <view class="set-flex">
+        <image class="logo" src="{{citylogo}}" mode="aspectFit"></image>
+        <text class="city-name">{{cityName}}</text>
+      </view>
+       
+       <view class="set-flex set-column">
+          <view class="view-icon set-line first">
+            <image class="icon-size" src="/images/local.png"></image>
+            <text class="set-text" space="ensp"> {{_address}}</text>
+            <image class="icon-right" catchtap="mapCall" src="{{arrow}}"></image>
+          </view>
+          <view class="view-icon set-line">
+            <image class="icon-size" src="{{phoneIcon}}"></image>
+            <text class="set-text" space="ensp"> {{phoneNum}}(微信同号)</text>
+            <image class="icon-right" catchtap="phoneCall" src="{{arrow}}"></image>
+          </view>
+          <view class="view-icon set-line last">
+            <image class="icon-size" src="{{mailIcon}}"></image>
+            <text class="set-text" space="ensp"> {{mail}}</text>
+          </view>
+       </view>
+        
+   </view>
+   <view class="section-1">
+    <image class="set-img" mode="aspectFit" src="/images/advertises/guanggao1.png"></image>
+    <image class="set-img" mode="aspectFit" src="/images/advertises/guanggao3.png"></image>
+    <image class="set-img" mode="aspectFit" src="/images/advertises/guanggao2.png">></image>
+   </view>
+   <view class="section-1">
+    <image class="set-img" mode="aspectFit" src="/images/advertises/canyin1.png"></image>
+    <image class="set-img" mode="aspectFit" src="/images/advertises/canyin2.png"></image>
+    <image class="set-img" mode="aspectFit" src="/images/advertises/canyin3.png">></image>
+   </view>
+</view>
