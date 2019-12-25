@@ -7,27 +7,26 @@ App({
     wx.setStorageSync('logs', logs)
 
     // 登录
-    wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        console.log('res.code:'+res.code)
-        if (res.code){
-          wx.request({
-            url: 'https://www.autodirv.cn/login',
-            data: {
-              data: {
-                code: res.code
-              }
-            }
-          })  
-        }else{
-          console.log('登录失败: ' + res.errMsg)
-        }
-      }
-    })
+    // wx.login({
+    //   success: res => {
+    //     // 发送 res.code 到后台换取 openId, sessionKey, unionId
+    //     console.log('res.code:'+res.code)
+    //     if (res.code){
+    //       wx.request({
+    //         url: 'https://www.autodirv.cn/login',
+    //         data: {
+    //           code: res.code
+    //         }
+    //       })  
+    //     }else{
+    //       console.log('登录失败: ' + res.errMsg)
+    //     }
+    //   }
+    // })
     // 获取用户信息
     wx.getSetting({
       success: res => {
+        console.log('res.authSetting[scope.userInfo]=' + res.authSetting['scope.userInfo'])
         if (res.authSetting['scope.userInfo']) {
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
           wx.getUserInfo({
@@ -47,6 +46,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    isMember: false
   }
 })

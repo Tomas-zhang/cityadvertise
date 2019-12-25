@@ -2,11 +2,9 @@
   "pages": [
     
     "pages/index/index",
-    "pages/location/map",
     "pages/logs/logs",
     "pages/order/order",
-    "pages/users/user",
-    "pages/test/test"
+    "pages/users/user"
   ],
   "window": {
     "backgroundTextStyle": "light",

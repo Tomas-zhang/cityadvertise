@@ -5,14 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    listData: [
+      { "time": "2019-01-12", "name": "客户1", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户2", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户3", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户4", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户5", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户6", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户7", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户8", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户9", "status": "成功", "points": "1000" },
+      { "time": "2019-01-12", "name": "客户10", "status": "成功", "points": "1000" }
+    ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
